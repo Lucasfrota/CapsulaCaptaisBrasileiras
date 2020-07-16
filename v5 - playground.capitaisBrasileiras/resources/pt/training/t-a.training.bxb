@@ -1,4 +1,4 @@
-train (t-a39jvcujhf98fai6arlyk4llm) {
+train (t-a28nlyqex6eztzcpknpsp36m7) {
   utterance ("[g:BuscarCapital] Qual a capital do (acre)[v:Estado]?")
   last-modified (1590776629333)
 }
