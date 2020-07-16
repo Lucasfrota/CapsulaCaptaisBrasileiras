@@ -1,0 +1,11 @@
+structure (InformacoesDoEstado) {
+  
+  property (capital) {
+    type (Capital)
+    min (Required) max (One)
+  }
+  property (bandeira) {
+    type (Bandeira)
+    min (Required) max (One)
+  }
+}

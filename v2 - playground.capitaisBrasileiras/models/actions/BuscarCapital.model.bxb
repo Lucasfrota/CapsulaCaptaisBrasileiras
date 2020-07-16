@@ -1,0 +1,12 @@
+action (BuscarCapital) {
+
+  type(Search)
+  
+  collect {
+    input (estado) {
+      type (Estado)
+      min (Required) max (One)
+    }
+  }
+  output (InformacoesDoEstado)
+}

@@ -1,0 +1,7 @@
+dialog (Result) {
+  match: BuscarCapital(buscarCapital){
+    from-input: Estado(estado)
+    to-output: InformacoesDoEstado(informacoesDoEstado)
+  }
+  template("A capital de #{value(estado)} é #{value(informacoesDoEstado.capital)}")
+}

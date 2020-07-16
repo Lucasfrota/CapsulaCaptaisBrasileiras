@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (BuscarCapital) {
+      accepted-inputs (estado)
+      local-endpoint (BuscarCapital.js)
+    }
+  }
+}

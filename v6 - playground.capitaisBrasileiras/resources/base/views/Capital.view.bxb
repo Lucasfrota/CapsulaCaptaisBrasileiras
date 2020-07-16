@@ -1,0 +1,25 @@
+result-view {
+  match: InformacoesDoEstado (informacoesDoEstado) {
+  }
+  render {
+    layout {
+      section {
+        content {
+          title-area{
+            slot1 {
+              text {
+                style (Title_S)
+                value ("Bandeira do estado")
+              }
+            }
+          }
+          image {
+            aspect-ratio (16:9)
+            object-fit(Contain)
+            url ("/images/bandeiras/#{value(informacoesDoEstado.bandeira)}")
+          }
+        }
+      }
+    }
+  }
+}
